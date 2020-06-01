@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="contentText" format="string" />
+    <attr name="txtColor" format="color" />
+    <attr name="bgColor" format="color" />
+    <attr name="maxLength" format="integer" />
+    <attr name="txtSize" format="dimension" />
+    <attr name="stripWidth" format="dimension" />
+    <attr name="percent" format="integer" />
+    <attr name="radius" format="integer" />
+    <attr name="bigColor" format="color" />
+    <attr name="littleColor" format="color" />
+
+    <declare-styleable name="ChatPopView">
+        <attr name="contentText" />
+        <attr name="txtColor" />
+        <attr name="bgColor" />
+        <attr name="maxLength" />
+        <attr name="txtSize" />
+    </declare-styleable>
+
+    <declare-styleable name="CirclePercentView">
+        <attr name="txtSize" />
+        <attr name="stripWidth" />
+        <attr name="percent" />
+        <attr name="radius" />
+        <attr name="bigColor" />
+        <attr name="littleColor" />
+        <attr name="contentText" />
+        <attr name="txtColor"/>
+        <attr name="bgColor"/>
+    </declare-styleable>
+</resources>
